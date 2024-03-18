@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+form table {
+    border: none;
+}
+
+form td,
+form th {
+    border: none;
+    padding: 5px;
+}
+
+/* Menambahkan aturan untuk gambar buku */
+img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
